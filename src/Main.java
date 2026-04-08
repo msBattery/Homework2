@@ -10,14 +10,14 @@ public class Main {
         System.out.println("Значение переменной cat = " + cat);
         System.out.println("Значение переменной paper = " + paper);
         dog = dog + 4;
-        cat= cat + 4;
-        paper = paper +4;
+        cat = cat + 4;
+        paper = paper + 4;
         System.out.println("Увеличим все переменные на 4. Решение задачи 2:");
         System.out.println("Значение переменной dog = " + dog);
         System.out.println("Значение переменной cat = " + cat);
         System.out.println("Значение переменной paper = " + paper);
         dog = dog - 3.5;
-        cat = cat -  1.6;
+        cat = cat - 1.6;
         paper = paper - 7639;
         System.out.println("Теперь сделаем процедуру вычитания. Решение задачи 3:");
         System.out.println("Значение переменной dog = " + dog);
@@ -39,23 +39,21 @@ public class Main {
         System.out.println("Переменная frog поделенная на 3.5: " + frog);
         frog = frog + 4;
         System.out.println("Увеличенная на 4 единицы переменная frog: " + frog);
-        var FighterOneWeight = 78.2;
-        var FighterTwoWeight = 82.7;
-        var WeightSum = FighterOneWeight + FighterTwoWeight;
+        var fighterOneWeight = 78.2;
+        var fighterTwoWeight = 82.7;
+        var weightSum = fighterOneWeight + fighterTwoWeight;
         System.out.println("Решение задания 6:");
-        System.out.println("Общая масса бойцов: " + WeightSum);
-        var WeightDiff = FighterTwoWeight - FighterOneWeight;
-        System.out.println("Разница между массами бойцов: " + WeightDiff);
+        System.out.println("Общая масса бойцов: " + weightSum);
+        var weightDiff = fighterTwoWeight - fighterOneWeight;
+        System.out.println("Разница между массами бойцов: " + weightDiff);
         System.out.println("Решение задания 7:");
-        var RemainderOfDivision = FighterTwoWeight % FighterOneWeight;
-        System.out.println("Остаток от деления: " + RemainderOfDivision);
-        var CompanyEmployees = 640 / 8;
+        var remainderOfDivision = fighterTwoWeight % fighterOneWeight;
+        System.out.println("Остаток от деления: " + remainderOfDivision);
+        var companyEmployees = 640 / 8;
         System.out.println("Решение задания 8:");
-        System.out.println("Всего в компании " + CompanyEmployees + " человек");
-        var MoreHours = (CompanyEmployees + 94) * 8;
-        System.out.println("Если в компании работает " + (CompanyEmployees + 94) + " человека, то всего " + MoreHours + " часов работы может быть поделено между сотрудниками");
-
-
+        System.out.println("Всего в компании " + companyEmployees + " человек");
+        var MoreHours = (companyEmployees + 94) * 8;
+        System.out.println("Если в компании работает " + (companyEmployees + 94) + " человека, то всего " + MoreHours + " часов работы может быть поделено между сотрудниками");
 
 
     }
